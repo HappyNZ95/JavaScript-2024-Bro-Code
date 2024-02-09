@@ -33,3 +33,7 @@ let vegetables = ["carrots", "celery", "potatoes"];
 
 let produce = [...fruits, ...vegetables]; //combines the two arrays
 console.log(produce); //["apple", "orange", "banana", "carrots", "celery", "potatoes"]
+
+produce = ["eggs", "milk", ...fruits, ...vegetables, "bread"];
+//combines the arrays and adds new items
+console.log(produce); //["eggs", "milk", "apple", "orange", "banana", "carrots", "celery", "potatoes", "bread"]
